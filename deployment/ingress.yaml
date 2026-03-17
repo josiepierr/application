@@ -7,9 +7,9 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - titanic_josie.lab.sspcloud.fr
+    - titanic-josie.lab.sspcloud.fr
   rules:
-  - host: titanic_josie.lab.sspcloud.fr
+  - host: titanic-josie.lab.sspcloud.fr
     http:
       paths:
       - path: /
